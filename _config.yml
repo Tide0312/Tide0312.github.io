@@ -5,12 +5,12 @@
 # NOTE: it looks like you need to rebuild + repush everytime you update this _config.yml file
 
 ### Site Settings ###
-title               : IS445 Jekyll Template 
+title               : IS445 Project
 description         : >-
-                      I am definitely not a corgi!
+                      Final Project
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
-repository          :                     # Change to <your-username> for github OR, if that doesn't work <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
+repository          : Tide0312/Tide0312.github.io                    # Change to <your-username> for github OR, if that doesn't work <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
@@ -22,7 +22,7 @@ plugins:
   - mini_magick
 
 ### To specify which port to host locally on -- use if you have multiple sites you want to host 
-port: 4008
+port: 8008
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
@@ -34,13 +34,13 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : A. P. Corgi
+  name              : Renault Kang
   image             : https://source.unsplash.com/300x300/?corgi&derpy
 #  behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
+  email             : hk38@illinois.edu
 #  facebook          : your_username
-  github            : jnaiman # JPN
+# github            : jnaiman # JPN
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
@@ -51,9 +51,9 @@ author:
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 #  twitch            : your_username
-  twitter           : your_username
+#  twitter           : your_username
 #  vimeo             : your_username
-  youtube           : your_channel_name
+#  youtube           : your_channel_name
 # keybase           : your_username
 
 

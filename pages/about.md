@@ -1,20 +1,13 @@
 ---
 layout: page
-title: About
+title: About Us
 permalink: /about/
 weight: 3
 ---
 
-# **About Me**
+# **About Team Red**
 
-Hi I am **{{ site.author.name }}**,<br>
-possibly a corgi, most definitely not!  Either way there are really neat things I am up to!
+Hello we are a group of enthusiastic data viz college folks and we are here to show you our latest findings based on advanced analytical toolset! 
 
-<div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-</div>
+TBD TBD 
 
-<div class="row">
-{% include about/timeline.html %}
-</div>

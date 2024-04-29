@@ -22,12 +22,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Blog">
-  <meta property="og:description" content="I am definitely not a corgi!">
+  <meta property="og:title" content="Observatory Project">
+  <meta property="og:description" content="This is our "observatory".">
   <meta property="og:image" content="https://source.unsplash.com/300x300/?corgi&derpy">
 
-  <title>Blog</title>
-  <meta name="description" content="I am definitely not a corgi!">
+  <title>Observatory Project</title>
+  <meta name="description" content="This is our "observatory".">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -60,9 +60,9 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
 
-      <a class="nav-item nav-link active" href="/blog/">Blog</a>
+      <a class="nav-item nav-link " href="/blog/">Blog</a>
 
       <a class="nav-item nav-link " href="/about/">About Us</a>
 
@@ -73,54 +73,25 @@
   </div>
 
 </nav>
-    <!-- Simple-Jekyll-Search https://github.com/christian-fei/Simple-Jekyll-Search -->
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1 id="observatory-project">Observatory Project</h1>
 
-<div class="input-group mt-5 px-3">
-  <input id="search-input" type="text" class="form-control search-box" placeholder="Search posts..">
-  <div class="input-group-append">
-    <span class="input-group-text border border-primary bg-primary text-white">
-      <i class="fas fa-search"></i>
-    </span>
-  </div>
-  <button class="btn btn-outline-primary ml-1" onclick="location.href = '/blog/tags';">
-    <i class="fas fa-tags"></i>
-  </button>
-</div>
-<ul class="px-3" id="results-container"></ul>
+<p>by Renault Kang, Spencer Lin, Jaclyn Lo, and Jas Chetan Mehta.</p>
 
-<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
-<script>
-  var sjs = SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        searchResultTemplate: '<a href="{url}" class="list-group-item list-group-item-action">{title}</a>',
-        noResultsText: '<li class="list-group-item list-group-item-action disabled">No results found</li>',
-        json: '/search.json'
-      })
-</script>
-<div class="card-group mt-2">
+<h2 id="geographical-distribution-of-navaids">Geographical Distribution of Navaids</h2>
 
-  
-    <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s">
-  <a href="/blog/hello-blog-world" class="post card bg-secondary">
-    <div class="card-body text-white">
-      <h3 class="card-title">The Hello World of Blogs</h3>
-      <p class="card-text">
-        
-        <span class="badge badge-light text-secondary">Technology</span>
-        
-        <span class="badge badge-light text-secondary">Blogging</span>
-        
-      </p>
-      <p class="card-text">This is a blog post to get you started.</p>
-    </div>
-    <div class="card-footer text-white">
-      22 August 2022
-    </div>
-  </a>
-</div>
-  
-  
+<h2 id="geographical-distribution-of-airports">Geographical Distribution of Airports</h2>
+
+<h2 id="amount-of-airports-in-each-continent">Amount of airports in each continent</h2>
+
+<h2 id="navaids-by-elevation">Navaids by Elevation</h2>
+
+<h2 id="airports-by-elevation">Airports by elevation</h2>
+
+<h2 id="runways-with-airports">Runways with airports</h2>
+
+<h2 id="correlation-between-runway-length-and-airport-elevation">Correlation between Runway Length and Airport Elevation</h2>
+
 </div>
   </main>
   <footer class="mt-auto py-3 text-center">
@@ -164,6 +135,17 @@
 
 </footer>
 
+
+<!-- Custom page specific js files -->
+  
+    <script src='/assets/js/vega.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-lite.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-embed.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/justcharts.js' type="text/javascript"></script>
+  
 
 
 
