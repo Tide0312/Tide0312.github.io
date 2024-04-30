@@ -18,9 +18,12 @@ by Renault Kang, Spencer Lin, Jaclyn Lo, and Jas Chetan Mehta.
 
 ## Geographical Distribution of Airports
 
-## Amount of airports in each continent 
+## Amount of Airports in Each Continent 
+
+![Image]({{ site.baseurl }}/assets/pngs/Number_Airpots_by_Continent.png)
 
 ## Navigation Elevations
+
 <vegachart schema-url="{{ site.baseurl }}/assets/json/navaids_elev.json" style="width: 100%"></vegachart>
 
 
@@ -28,10 +31,15 @@ by Renault Kang, Spencer Lin, Jaclyn Lo, and Jas Chetan Mehta.
 
 ## Number of Airports by elevation
 
+![Image]({{ site.baseurl }}/assets/pngs/Number_of_Airports_elevation.png)
+
+
+## Top Airports Runways
+
+![Image]({{ site.baseurl }}/assets/pngs/top_airports_runways.png)
+
+## Runway Length and Airport Elevation by Continent
+<vegachart schema-url="{{ site.baseurl }}/assets/json/runway_airport.json" style="width: 100%"></vegachart>
+
+some random stuff
 {% include Number_of_Airports_by_Elevation.html %}
-
-## Runways with airports
-
-![Image]({{ site.baseurl }}/assets/pngs/cars.png)
-
-## Correlation between Runway Length and Airport Elevation
