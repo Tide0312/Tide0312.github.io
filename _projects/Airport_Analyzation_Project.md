@@ -68,5 +68,8 @@ by Renault Kang, Spencer Lin, Jaclyn Lo, and Jas Chetan Mehta.
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/busy_airport.json" style="width: 100%"></vegachart>
 
+#### Hartsfield-Jackson Atlanta International Airport is notably busier than other airports, emphasizing its role as a major hub, particularly for the United States. 
+#### The clustering of total passengers around 65 million for most airports, except Atlanta, points to a competitive tier of major international airports that serve as central nodes in the global air travel network, each supporting similar volumes of traffic and potentially competing for a similar market share.
+
 ## Problems Encountered and How to Solve
 #### In this project, I encountered some challenges as the person responsible for integrating our team's plots and research into Jekyll. Not all plots were in JSON format; some were tied to HTML files and couldn't be converted. I found a blog post by a Jekyll blogger explaining how to store HTML files in the 'include' folder and display HTML tables using the 'include' function. I followed these instructions successfully. However, there was an instance where this method didn't display my HTML table. After unsuccessful researches, I converted the table into a PNG file, placed it in the 'assets' folder, and successfully displayed it as a PNG on our Jekyll site.
