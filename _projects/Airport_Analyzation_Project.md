@@ -25,7 +25,7 @@ by Renault Kang, Spencer Lin, Jaclyn Lo, and Jas Chetan Mehta.
 
 ![Image]({{ site.baseurl }}/assets/pngs/Number_Airpots_by_Continent.png)
 
-#### The bar chart compares the number of airports on each continent. Most of the airports are majorly located in North America, and Antarctica has the lowest.
+#### The bar chart illustrates the distribution of airports across continents. North America has the highest number of airports, almost equaling the combined total of Asia, South America, and Europe. Antarctica has the fewest airports.
 
 ## Navigation Elevations
 
@@ -47,10 +47,13 @@ by Renault Kang, Spencer Lin, Jaclyn Lo, and Jas Chetan Mehta.
 
 ![Image]({{ site.baseurl }}/assets/pngs/Number_of_Airports_elevation.png)
 
+#### This bar chart, labeled "Number of Airports by Elevation Range," presents a distribution of airports according to their elevation above sea level. The most populated elevation range for airports is at 0-500 ft, with the bar peaking over 20,000 airports. The count significantly drops as elevation increases, with the 500-1,000 ft range having about half as many airports. Further increments in elevation show a steady decline in the number of airports, with those situated above 6,000 ft being exceptionally rare. This data indicates that the vast majority of airports are constructed at lower elevations, which may reflect factors such as population density, terrain, and the ease of construction and operation.
 
 ## Top Airports Runways
 
 ![Image]({{ site.baseurl }}/assets/pngs/top_airports_runways.png)
+
+#### The chart highlights the top 10 airports with the highest number of runways. Notably, O'Hare Airport ranks first, which is quite intriguing. Among these leading airports, the majority are situated in the United States. This is consistent with the fact that North America has the densest airport network, which logically supports a busier transportation infrastructure compared to other continents.
 
 ## Runway Length and Airport Elevation by Continent
 
