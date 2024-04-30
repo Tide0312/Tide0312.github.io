@@ -62,4 +62,11 @@ by Renault Kang, Spencer Lin, Jaclyn Lo, and Jas Chetan Mehta.
 
 #### The scatter plot compares the runway length in feet to the average airport elevation in feet across different continents, differentiated by color. Each dot represents an airport. The majority of airports, particularly in Europe and North America, are situated at lower elevations (below 2,000 feet).
 
+## Busy Airport by Passenger in 2022
+
+![Image]({{ site.baseurl }}/assets/pngs/top_10_busyairport.png)
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/busy_airport.json" style="width: 100%"></vegachart>
+
 ## Problems Encountered and How to Solve
+#### In this project, I encountered some challenges as the person responsible for integrating our team's plots and research into Jekyll. Not all plots were in JSON format; some were tied to HTML files and couldn't be converted. I found a blog post by a Jekyll blogger explaining how to store HTML files in the 'include' folder and display HTML tables using the 'include' function. I followed these instructions successfully. However, there was an instance where this method didn't display my HTML table. After unsuccessful researches, I converted the table into a PNG file, placed it in the 'assets' folder, and successfully displayed it as a PNG on our Jekyll site.

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 400, "title": "Top 10 Busy Airports by Passenger","width": "container",
+  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
+  "data": {
+    "values": [
+  {
+    "Airport": "United States Hartsfield–Jackson Atlanta International Airport",
+    "Total passengers": 93699630
+  },
+  {
+    "Airport": "Dallas Fort Worth International Airport",
+    "Total passengers": 73362946
+  },
+  {
+    "Airport": "Denver International Airport",
+    "Total passengers": 69286461
+  },
+  {
+    "Airport": "O'Hare International Airport",
+    "Total passengers": 68340619
+  },
+  {
+    "Airport": "Dubai International Airport",
+    "Total passengers": 66069981
+  },
+  {
+    "Airport": "Los Angeles International Airport",
+    "Total passengers": 65924298
+  },
+  {
+    "Airport": "Istanbul Airport",
+    "Total passengers": 64289107
+  },
+  {
+    "Airport": "Heathrow Airport",
+    "Total passengers": 61614508
+  },
+  {
+    "Airport": "Indira Gandhi International Airport",
+    "Total passengers": 59490074
+  },
+  {
+    "Airport": "Charles de Gaulle Airport",
+    "Total passengers": 57474033
+  }
+]
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "Airport", "type": "nominal", "axis": {"labelAngle": 45}},
+    "y": {"field": "Total passengers", "type": "quantitative"}
+  }
+}
