@@ -14,12 +14,34 @@ custom_js:
 
 by Renault Kang, Spencer Lin, Jaclyn Lo, and Jas Chetan Mehta.
 
+## Title: Exploring Geographical Distribution of Navaids and Airports
+
+Introduction to Dataset:
+
+The dataset used for this analysis contains comprehensive information about navigational aids (navaids) and airports, which are crucial components of the global transportation infrastructure.
+
+Navaids: Navaids are essential for both air and maritime navigation. They include various types of electronic devices and visual markers used by pilots and maritime navigators to determine their position, plot their course, and ensure safe navigation.
+Airports: Airports are vital hubs for air travel, serving as points of departure, arrival, and transit for millions of passengers and tons of cargo every day. They provide essential facilities and services for aircraft operations, including runways, terminals, and maintenance facilities.
+Dataset Description:
+
+The dataset comprises two main components: navaids and airports. Each component includes several attributes that provide detailed information about their geographical distribution and characteristics.
+
+Navaids Data: This dataset includes attributes such as latitude, longitude, name, type, and other relevant information about different navaids. These attributes allow us to visualize the spatial distribution of navaids and explore their diversity in terms of types and functionalities.
+Airports Data: Similarly, the airports dataset contains attributes such as latitude, longitude, name, ICAO code, and other relevant details about various airports worldwide. Analyzing this data enables us to understand the global network of airports and their significance in facilitating air transportation.
+Exploring the Plot:
+
+Map of Navaids:
+This map provides a visual representation of the geographical distribution of navaids around the world.
+Each marker on the map represents a navaid location, with tooltips displaying additional information such as the name and type of navaid.
+By exploring this map, we can gain insights into the density and coverage of navaids in different regions, which are essential for safe navigation by air and sea.
+
 ## Geographical Distribution of Navaids 
 
 ![Image]({{ site.baseurl }}/assets/pngs/heatmap.png)
 
 {% include navaids_map-4.html %}
 
+{% include airports_map.html %}
 
 ## Amount of Airports in Each Continent 
 
@@ -73,3 +95,8 @@ by Renault Kang, Spencer Lin, Jaclyn Lo, and Jas Chetan Mehta.
 
 ## Problems Encountered and How to Solve
 #### In this project, I encountered some challenges as the person responsible for integrating our team's plots and research into Jekyll. Not all plots were in JSON format; some were tied to HTML files and couldn't be converted. I found a blog post by a Jekyll blogger explaining how to store HTML files in the 'include' folder and display HTML tables using the 'include' function. I followed these instructions successfully. However, there was an instance where this method didn't display my HTML table. After unsuccessful researches, I converted the table into a PNG file, placed it in the 'assets' folder, and successfully displayed it as a PNG on our Jekyll site.
+
+
+<div class="left">
+{% include elements/button.html link="https://ourairports.com/data/" text="The Data" %}
+</div>
