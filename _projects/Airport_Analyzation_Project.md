@@ -100,3 +100,7 @@ By exploring this map, we can gain insights into the density and coverage of nav
 <div class="left">
 {% include elements/button.html link="https://ourairports.com/data/" text="The Data" %}
 </div>
+
+<div class="right">
+{% include elements/button.html link="https://github.com/Tide0312/Tide0312.github.io/blob/main/python_notebooks/Workbook-4.ipynb" text="The Analysis" %}
+</div>
